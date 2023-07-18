@@ -7,3 +7,6 @@ async function addToWeb3 ({ endpoint, token, pathToAdd, name, wrapWithDirectory 
   const cid = await web3.put(files, { name, wrapWithDirectory })
   const url = `https://dweb.link/ipfs/${cid}`
   return { cid, url }
+}
+
+function pickName ({ repo, run, sha }) {
