@@ -3,3 +3,5 @@
   "version": "2.0.0",
   "description": "Publish your files and websites to web3.storage",
   "main": "index.js",
+  "author": "olizilla",
+  "license": "MIT",
