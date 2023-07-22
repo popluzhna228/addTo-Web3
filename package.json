@@ -5,3 +5,5 @@
   "main": "index.js",
   "author": "olizilla",
   "license": "MIT",
+  "repository": {
+    "type": "git",
