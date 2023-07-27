@@ -17,3 +17,5 @@
   ],
   "scripts": {
     "test": "ava --verbose",
+    "lint": "standard --verbose | snazzy",
+    "lint:fix": "standard --fix",
