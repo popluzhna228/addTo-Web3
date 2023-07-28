@@ -19,3 +19,4 @@
     "test": "ava --verbose",
     "lint": "standard --verbose | snazzy",
     "lint:fix": "standard --fix",
+    "prepare": "ncc build index.js -o dist --source-map --license licenses.txt",
